@@ -139,7 +139,7 @@
       v-else-if="!filteredFiles.length && !filteredFolders.length"
       style="margin-top: 12px; text-align: center"
     >
-      <span>没有文件</span>
+      <span>Nothing</span>
     </div>
     <Dialog v-model="showContextMenu">
       <div
@@ -458,7 +458,7 @@ export default {
         }
         document.title = `${
           this.cwd.replace(/.*\/(?!$)|\//g, "") || "/"
-        } - 文件库`;
+        } - Emokui`;
       },
       immediate: true,
     },
