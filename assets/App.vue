@@ -457,8 +457,8 @@ export default {
           window.history.pushState(null, "", url.toString());
         }
         document.title = `${
-          this.cwd.replace(/.*\/(?!$)|\//g, "") || " "
-        }  Emokui`;
+          this.cwd.replace(/.*\/(?!$)|\//g, "") || ""
+        } Emokui`;
       },
       immediate: true,
     },
