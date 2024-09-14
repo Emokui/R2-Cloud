@@ -133,7 +133,7 @@
       </li>
     </ul>
     <div v-if="loading" style="margin-top: 12px; text-align: center">
-      <span>加载中...</span>
+      <span>loading...</span>
     </div>
     <div
       v-else-if="!filteredFiles.length && !filteredFolders.length"
