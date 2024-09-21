@@ -1,4 +1,4 @@
-**利用 CloudFlare R2+pages 建造网盘/图床服务**
+## 利用 CloudFlare R2+pages 建造网盘/图床服务 ##
 
 1.Fock本项目
 
@@ -9,13 +9,13 @@
 3.pages链接此项目并添加以下变量
 
 
-PUBURL           复制的公共存储桶URL
+`PUBURL`:`复制的公共存储桶URL`
 
 
-GUEST            public/
+`GUEST`:`public/`
 
 
-admin:123123      *
+`admin:123123`:`*`
 
 
-4.函数-R2绑定-变量名填写 BUCKET
+4.函数-R2绑定-变量名填写 `BUCKET`
