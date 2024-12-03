@@ -179,7 +179,7 @@
           </button>
         </li>
         <li>
-          <button @click="copyLink(`/raw/${focusedItem.key}`)">
+          <button @click="copyLink(`/Cloud/${focusedItem.key}`)">
             <span>复制链接</span>
           </button>
         </li>
