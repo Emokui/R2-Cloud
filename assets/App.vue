@@ -179,7 +179,7 @@
           </button>
         </li>
         <li>
-          <button @click="copyLink(`/Rule/${focusedItem.key}`)">
+          <button @click="copyLink(`/raw/${focusedItem.key}`)">
             <span>复制链接</span>
           </button>
         </li>
