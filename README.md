@@ -15,7 +15,7 @@
 `GUEST`:`public/`
 
 
-`admin:123123`:`*`
+`Account:password`:`*`
 
 
 4.函数-R2绑定-变量名填写 `BUCKET`
