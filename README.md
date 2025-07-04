@@ -1,4 +1,4 @@
-## 利用 CloudFlare R2+pages 建造网盘/图床服务 ##
+## 搭建步骤 ##
 
 1.Fock本项目
 
@@ -10,9 +10,6 @@
 
 
 `PUBURL`:`复制的公共存储桶URL`
-
-
-`GUEST`:`public/`
 
 
 `Account:password`:`*`
