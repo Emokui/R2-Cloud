@@ -48,12 +48,13 @@ const emit = defineEmits(["update:modelValue", "click"]);
 }
 
 .menu-content {
+  top: 16px;
   position: absolute;
   background-color: white;
   z-index: 2;
   border-radius: 6px;
   right: -100%;
-  min-width: 128px;
+  min-width: 168px;
 }
 
 .menu-content li {
