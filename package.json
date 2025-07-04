@@ -1,0 +1,22 @@
+{
+  "name": "FlareDrive",
+  "version": "0.0.2",
+  "description": "基于cloudflare-r2实现的网盘",
+  "scripts": {
+    "dev": "wrangler pages dev . --r2 BUCKET"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willow-god/FlareDrive-R2.git"
+  },
+  "author": "longern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willow-god/FlareDrive-R2/issues"
+  },
+  "homepage": "https://github.com/willow-god/FlareDrive-R2#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.3.1",
+    "wrangler": "^2.6.2"
+  }
+}
